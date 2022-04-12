@@ -9,7 +9,7 @@ return {
   tilewidth = 40,
   tileheight = 40,
   nextlayerid = 6,
-  nextobjectid = 35,
+  nextobjectid = 36,
   properties = {
     ["name"] = "Test Map - Room 1"
   },
@@ -503,6 +503,21 @@ return {
           visible = true,
           properties = {
             ["script"] = "room1.wall"
+          }
+        },
+        {
+          id = 35,
+          name = "script",
+          type = "",
+          shape = "rectangle",
+          x = 600,
+          y = 200,
+          width = 40,
+          height = 80,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["script"] = "room1.parting"
           }
         }
       }

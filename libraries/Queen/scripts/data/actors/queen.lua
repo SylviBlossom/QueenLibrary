@@ -29,7 +29,23 @@ function actor:init()
     self.portrait_offset = {0, 0}
 
     -- Table of sprite animations
-    self.animations = {}
+    self.animations = {
+        -- Cutscene animations
+        ["laugh"]               = {"laugh", 4/30, true},
+
+        ["climb"]               = {"climb", 4/30, true},
+
+        ["point_left"]          = {"point_left", 2/30, false},
+        ["point_right"]         = {"point_right", 2/30, false},
+
+        ["stupid_run_left"]     = {"stupid_run_left", 1/9, true},
+        ["stupid_run_right"]    = {"stupid_run_right", 1/9, true},
+
+        ["drunk_laugh"]         = {"drunk_laugh", 4/30, true},
+        ["drunk_laugh_noglass"] = {"drunk_laugh_noglass", 4/30, true},
+
+        ["drunk_smash"]         = {"drunk_smash", 4/30, false},
+    }
 
     -- Table of sprite offsets (indexed by sprite name)
     self.offsets = {
@@ -50,6 +66,15 @@ function actor:init()
         ["walk_drunk/up"] = {11, 0},
 
         -- Cutscene offsets
+        ["laugh"] = {11, 6},
+
+        ["shocked"] = {11, 2},
+
+        ["stealth"] = {22, 4},
+        ["stealth_mad"] = {22, 4},
+
+        ["climb"] = {12, 8},
+
         ["point_left"] = {19, 0},
         ["point_right"] = {12, 0},
 
