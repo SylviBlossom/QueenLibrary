@@ -43,6 +43,27 @@ function actor:init()
         ["walk_unhappy/left"] = {5, 0},
         ["walk_unhappy/right"] = {12, 0},
         ["walk_unhappy/up"] = {11, 0},
+
+        ["walk_drunk/down"] = {18, 1},
+        ["walk_drunk/left"] = {13, 0},
+        ["walk_drunk/right"] = {12, 0},
+        ["walk_drunk/up"] = {11, 0},
+
+        -- Cutscene offsets
+        ["point_left"] = {19, 0},
+        ["point_right"] = {12, 0},
+
+        ["stupid_run_right"] = {25, 7},
+        ["stupid_run_left"] = {24, 7},
+
+        ["drunk_left"] = {12, 0},
+        ["drunk_right"] = {12, 0},
+        ["drunk_down"] = {19, 1},
+
+        ["drunk_laugh"] = {10, 4},
+        ["drunk_laugh_noglass"] = {10, 4},
+
+        ["drunk_smash"] = {39, 17}
     }
 end
 
