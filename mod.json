@@ -1,0 +1,17 @@
+{
+    "id": "queen_library",
+    "name": "Queen Library",
+    "subtitle": "",
+
+    "version": "v1.0.0",
+    "engineVer": "v0.3.0-dev",
+
+    "chapter": 2,
+
+    "map": "room1",
+    "party": ["queen", "noelle"],
+    "inventory": {
+        "item": ["darkburger", "darkburger", "ultimate_candy"],
+        "key": ["cell_phone"]
+    }
+}
