@@ -442,7 +442,7 @@ return {
           visible = true,
           properties = {
             ["actor"] = "starwalker",
-            ["script"] = "room1.starwalker"
+            ["cutscene"] = "room1.starwalker"
           }
         },
         {
@@ -502,7 +502,7 @@ return {
           rotation = 0,
           visible = true,
           properties = {
-            ["script"] = "room1.wall"
+            ["cutscene"] = "room1.wall"
           }
         },
         {
@@ -517,7 +517,7 @@ return {
           rotation = 0,
           visible = true,
           properties = {
-            ["script"] = "room1.parting"
+            ["cutscene"] = "room1.parting"
           }
         }
       }

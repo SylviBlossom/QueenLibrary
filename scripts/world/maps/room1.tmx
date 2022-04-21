@@ -90,7 +90,7 @@
   <object id="19" name="npc" x="480" y="840" width="40" height="40">
    <properties>
     <property name="actor" value="starwalker"/>
-    <property name="script" value="room1.starwalker"/>
+    <property name="cutscene" value="room1.starwalker"/>
    </properties>
   </object>
   <object id="27" name="savepoint" x="80" y="210" width="40" height="40">
@@ -112,12 +112,12 @@ you.</property>
   </object>
   <object id="33" name="interactscript" x="280" y="80" width="40" height="40">
    <properties>
-    <property name="script" value="room1.wall"/>
+    <property name="cutscene" value="room1.wall"/>
    </properties>
   </object>
   <object id="35" name="script" x="600" y="200" width="40" height="80">
    <properties>
-    <property name="script" value="room1.parting"/>
+    <property name="cutscene" value="room1.parting"/>
    </properties>
   </object>
  </objectgroup>

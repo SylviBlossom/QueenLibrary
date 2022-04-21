@@ -50,45 +50,45 @@ function actor:init()
     -- Table of sprite offsets (indexed by sprite name)
     self.offsets = {
         -- Movement offsets
-        ["walk/down"] = {8, 1},
-        ["walk/left"] = {5, 0},
-        ["walk/right"] = {12, 0},
-        ["walk/up"] = {11, 0},
+        ["walk/down"] = {-8, -1},
+        ["walk/left"] = {-5, 0},
+        ["walk/right"] = {-12, 0},
+        ["walk/up"] = {-11, 0},
 
-        ["walk_unhappy/down"] = {8, 1},
-        ["walk_unhappy/left"] = {5, 0},
-        ["walk_unhappy/right"] = {12, 0},
-        ["walk_unhappy/up"] = {11, 0},
+        ["walk_unhappy/down"] = {-8, -1},
+        ["walk_unhappy/left"] = {-5, 0},
+        ["walk_unhappy/right"] = {-12, 0},
+        ["walk_unhappy/up"] = {-11, 0},
 
-        ["walk_drunk/down"] = {18, 1},
-        ["walk_drunk/left"] = {13, 0},
-        ["walk_drunk/right"] = {12, 0},
-        ["walk_drunk/up"] = {11, 0},
+        ["walk_drunk/down"] = {-18, -1},
+        ["walk_drunk/left"] = {-13, 0},
+        ["walk_drunk/right"] = {-12, 0},
+        ["walk_drunk/up"] = {-11, 0},
 
         -- Cutscene offsets
-        ["laugh"] = {11, 6},
+        ["laugh"] = {-11, -6},
 
-        ["shocked"] = {11, 2},
+        ["shocked"] = {-11, -2},
 
-        ["stealth"] = {22, 4},
-        ["stealth_mad"] = {22, 4},
+        ["stealth"] = {-22, -4},
+        ["stealth_mad"] = {-22, -4},
 
-        ["climb"] = {12, 8},
+        ["climb"] = {-12, -8},
 
-        ["point_left"] = {19, 0},
-        ["point_right"] = {12, 0},
+        ["point_left"] = {-19, 0},
+        ["point_right"] = {-12, 0},
 
-        ["stupid_run_right"] = {25, 7},
-        ["stupid_run_left"] = {24, 7},
+        ["stupid_run_right"] = {-25, -7},
+        ["stupid_run_left"] = {-24, -7},
 
-        ["drunk_left"] = {12, 0},
-        ["drunk_right"] = {12, 0},
-        ["drunk_down"] = {19, 1},
+        ["drunk_left"] = {-12, 0},
+        ["drunk_right"] = {-12, 0},
+        ["drunk_down"] = {-19, -1},
 
-        ["drunk_laugh"] = {10, 4},
-        ["drunk_laugh_noglass"] = {10, 4},
+        ["drunk_laugh"] = {-10, -4},
+        ["drunk_laugh_noglass"] = {-10, -4},
 
-        ["drunk_smash"] = {39, 17}
+        ["drunk_smash"] = {-39, -17}
     }
 end
 
